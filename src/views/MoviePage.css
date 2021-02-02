@@ -1,0 +1,61 @@
+/* movie info */
+.movie-info
+{
+  text-align: center;
+}
+
+.movie-info__title
+{
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-family: var(--title-font);
+}
+
+.movie-info__label
+{
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: var(--blue-300);
+}
+
+.movie-info-misc
+{
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.movie-info-misc__field
+{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color: grey;
+}
+
+.movie-info__casting
+{
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 5px auto 40px auto;
+}
+
+.movie-info__plot
+{
+  font-size: 1.1rem;
+  font-style: italic;
+  text-align: justify;
+  width: 80%;
+  margin: 5px auto 40px auto;
+  padding: 10px;
+  border: 1px solid var(--blue-400);
+  border-radius: 5px;
+}
+
+.movie-info__poster
+{
+  border: 2px solid #ffffff;
+  margin: 10px auto;
+  max-width: 80%;
+}

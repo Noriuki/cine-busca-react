@@ -1,0 +1,45 @@
+/* search-bar */
+.search-bar
+{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 50px;
+  justify-content: space-between;
+  margin: auto;
+  padding: 5px;
+}
+
+.search-bar__input
+{
+  box-sizing: border-box;
+  width: 75%;
+}
+
+.search-bar__input:focus
+{
+  outline-color: var(--blue-200)!important;
+}
+
+.search-bar__btn
+{
+  width: 22%;
+  background-color: var(--blue-200);
+  color: white;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+.search-bar__btn:hover
+{
+  opacity: 0.9;
+}
+
+/* movies container */
+.movies-container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
