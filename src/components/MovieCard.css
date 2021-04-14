@@ -1,14 +1,14 @@
 /* Movie Card style */
-.movie-card
-{
+.movie-card-link,
+.movie-card-link div {
   display: flex;
   flex-direction: column;
-  width: 450px;
-  margin: 20px 5px;
+  width: 300px;
+  height: 400px;
+  margin: 1rem 0;
 }
 
-.movie-card-info
-{
+.movie-card-info {
   margin-top: 5px;
   display: flex;
   flex-direction: column;
@@ -16,18 +16,20 @@
   text-align: center;
 }
 
-.movie-card-info__title
-{
-  font-size: 1.5rem;
+.movie-card-info__title {
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.9);
 }
 
-.movie-card-info__release
-{
-  font-size: 1rem;
+.movie-card-info__release {
+  font-size: 0.8rem;
+  color: var(--blue-200);
 }
-
-.movie-card__poster
-{
+.movie-casting{
+  display: flex;
+  flex-direction: column;
+}
+.movie-card__poster {
   margin: auto;
   width: 290px;
   height: 350px;

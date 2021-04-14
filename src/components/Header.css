@@ -2,30 +2,27 @@
   background-color: var(--blue-200);
   height: 75px;
 }
-.header__nav 
-{
+.header__nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.nav-link
-{
+.nav-link {
   display: flex;
   align-items: center;
   padding: 5px;
   font-size: 1.2rem;
 }
-.nav-link__logo
-{
+.nav-link__logo {
   max-width: 100%;
-  width: 70px;
+  width: 50px;
+  margin-right: 0.5rem;
 }
-.nav-link__title
-{
+.nav-link__title {
   font-family: var(--title-font), sans-serif;
-  color:white;
+  color: white;
 }
-.header__nav, .nav-link
-{
-  height: 100%!important;
+.header__nav,
+.nav-link {
+  height: 100% !important;
 }
