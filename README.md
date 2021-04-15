@@ -3,7 +3,6 @@
 
 topics covered:\
 :white_check_mark: [React](https://reactjs.org/)\
-
 :white_check_mark: [OMDb API](https://www.omdbapi.com/)
 
 ## :wrench: Development setup
