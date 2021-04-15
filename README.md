@@ -1,12 +1,27 @@
-# cine-busca-react
-Feito com o propósito de aprendizado.
+# Cine-Busca
+> Simple web application made with React and OMDb API.
 
-## Project setup
-```
+topics covered:\
+:white_check_mark: [React](https://reactjs.org/)\
+
+:white_check_mark: [OMDb API](https://www.omdbapi.com/)
+
+## :wrench: Development setup
+clone project
+
+`
+$ git clone https://github.com/Noriuki/NextLevelWeek-4-Node
+`
+
+install dependencies
+
+`
 yarn install
-```
+`
 
-### Compiles and hot-reloads for development
-```
+Run App
+
+`
 yarn dev
-```
+`
+
